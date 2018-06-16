@@ -1,0 +1,22 @@
+{
+  "name": "server-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "gcloud app deploy --project projectdenimar01"
+  },
+  "comment": {
+    "about deploy": {
+      "--no-promote": "evoid to publish https://server01-dot-projectdenimar01.appspot.com",
+      "externalIP": "130.211.234.187",
+      "#1": "após run deploy, eu tenho que entrar via ssh rodar 'kubectl get pods' pegar o pod e rodar 'kubectl delete pod <pod name>'. Será que não tem uma forma de fazer isso automaticamente???"
+    }  
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
