@@ -7,9 +7,10 @@
     "start": "node index.js",
     "deploy": "gcloud app deploy --project projectdenimar01",
 
-    "git:push": "git add . && git commit -am 'implemented version 1.0.0.7' && git push",
-    "git:tagging": "git tag -a v1.0.0.6 -m 'my version 1.0.0.6' && git push origin --tags",
-    "git": "npm run git:push & npm run git:tagging"
+    "git:push": "git add . && git commit -am 'implemented version 1.0.0.8' && git push",
+    "git:tagging": "git tag -a v1.0.0.8 -m 'my version 1.0.0.8' && git push origin --tags",
+    "kubernetes:rollout": "gcloud container clusters get-credentials cluster-denimar01 --zone us-central1-a --project projectdenimar01 && kubectl set image deployment microservice01 microservice01=gcr.io/projectdenimar01/github-denimar-server-test:v1.0.0.8",
+    "git": "npm run git:push && npm run git:tagging && kubernetes:rollout"
   },
   "comment": {
     "about deploy": {
