@@ -1,7 +1,7 @@
 FROM node:8
-WORKDIR /server01
-COPY package.json /server01
+ENV HOME=/home/arianioliver
+COPY . $HOME/app
+WORKDIR $HOME/app
 RUN npm install
-COPY . /server01
-CMD export PORT=8080 && node server01/index.js
 EXPOSE 8080
+CMD node index.js
