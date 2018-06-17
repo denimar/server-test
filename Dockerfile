@@ -1,7 +1,7 @@
 FROM node:8
-ENV HOME=/home/arianioliver
-COPY . $HOME/app
-WORKDIR $HOME/app
+WORKDIR /app
+COPY package.json /app
 RUN npm install
-EXPOSE 8080
+COPY . /app
 CMD node index.js
+EXPOSE 8080
