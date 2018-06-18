@@ -13,4 +13,4 @@ steps:
   - 'microservice01=gcr.io/projectdenimar01/microservice01:$REVISION_ID'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=my-projects-cluster'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=projects-cluster'
