@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "projectdenimar01",
+  "private_key_id": "5472b2034a4b36e111bef54d1ba24b2c7de67807",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDI/lvVgbNa4iw7\nbhn97mCkbkR18AEIAvWdn6ADDquAFRiVNCfEnNhdTs47jcmorgS+F03w0Ap2cii2\nRitDeuTtW6uyUjgTRqPeimmZzpxrqrsZ4ZdWivw1EgSyMI3wxPI00g2HpEZjqTup\n2yIeGE52Ql8fWZ1+EJ3hL3HKDz7ZCoN2qV3tAWG7Cw+jx3EZEpLLXbIVmXVrYgbt\nbY2/kj9IKvPWDzCuAWoCdyR69D1eJUQLbwwpRUk66Wawhzs4TAzCiQTHBw+RbRvy\nfA6lzKnhcll/KRTfG8ZQYHaNNPAog/1QUoXb2oNqenetSskhNKH3u6d1uCp+mLRJ\nMjyiUZPNAgMBAAECggEAAQdoUfH9iJAS2OUJ5gZj4UOdPxtQ7gkR19I63/khwKCb\nBRyEvZlt9CBUpvJlX2MwrAZzhDGUdCHGepRmYUyOQnbPLLUGC3c3nIqJ2ts3asev\neITyoONKQj1K39ymxV5EvSd8IT8iix0RLJ/uD0hhknJpiUAMsdoE7OOwye+FC1hj\nmfO+Ze3X+xZ0POf7OYtUO8E+usLiwfDRGJcAO+DMkBitV24hSV6U9NucJa/7B+pE\nlDZaOPJoi71ulto+UsmTUfunByPmEvmW4JXuYgEu5LcyiOtjalnKzjuCGUaaltx/\n1lnvHTC/2c0alINBlAJVKjVt/859dKKbAvX6+DmMQwKBgQD4HC31nuJig8jIZzIg\n3MLlnRPw99TiXOn3JC7FbyUa+ssXwrawUxqdtdWAq7T4JhllaNmL0+GZJ7VcMz8b\nXbdyN9PDBrrGECaF9/AinT9UOVe42jBOQVlq1QaXXUhHOFWS5AsvfSi9e02PdOJB\nb+1z1BSyUM11Uli/O22A83A8VwKBgQDPYpy2xDUxoP1bLq5k0XHNKhuaMkgvOwzT\nk8Io7lm6s3BP+c45xjWGJUi96FR4Cmrfacoza2rxM6Y+7Azaxm/lRm/P1bgYAPXQ\n+xMBEOUpekCWor3EJQpYaS4gNd/Kid3DblxY8hC9gJG4D1Q9eaTmw2/cKkQqNDcR\n/6iNvoJaewKBgHGqN0P3bi9DwJBO9qAngwI+XAxg/Z5Wgrk+Uk8RBCbADprsEVXm\nPKNT0mQIRfgJPElBJ6jvgMLxdhyvPZID9S7WdKU8SATFEWD+nXy+HW0weAevrcGs\nHpLa1RIzIhG+tTV+U8GFzUxBWN8H5T+lT1tpJbIrYnUFLLMvPpN880YxAoGAQ75S\nsuEk/zE3kbGOBiDkq8A1hAkoy0Tey75YjkZNyU8UQQu48eZtVYSYXnCmJxBAGPrV\nsjZEmMXmaGdzS4PGyX5Yx+toV2743WsmqhJ6yTHGJ27BznDLEFZLWvo+QEsIxe4m\n/GcWUNDOyPE481vpIfh1cdXcrmygEKESzjqNGkECgYEAwF8JBdPMnzU+yWKTjsdp\nxiy6rVjJOOhdkNeYfi9FFzYxpYvVZUmafvk4Hx1PzrQd+Z+q+n7+y7i62/ROgnPt\ns4eXvkhqSTLS/Wew+uDDJA3tRPCINBFq3fvPTFFYsysOtAOHHaQcYJp+IRxVEXtt\nqz7mbdy8R1lOZdeqQI+LrSU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "microservice01@projectdenimar01.iam.gserviceaccount.com",
+  "client_id": "112656828559152678256",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/microservice01%40projectdenimar01.iam.gserviceaccount.com"
+}
