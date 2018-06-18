@@ -10,7 +10,7 @@ describe('addTwoNumbers()', function () {
     var sum1 = x + y;
 
     // 2. ACT
-    var sum2 = addTwoNumbers(62, y);
+    var sum2 = addTwoNumbers(x, y);
 
     // 3. ASSERT
     expect(sum2).to.be.equal(sum1);
