@@ -16,6 +16,8 @@ VNUM4=$((VNUM4+1))
 #create new tag
 NEW_TAG="$VNUM1.$VNUM2.$VNUM3.$VNUM4"
 
-echo "Updating $VERSION to $NEW_TAG"
+echo "Deploying $NEW_TAG version"
 
+git config --global user.email "denimar@gmail.com"
+git config --global user.name "denimar"
 git tag -a $NEW_TAG -m 'my version $NEW_TAG' && git push origin --tags
