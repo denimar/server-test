@@ -24,7 +24,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "25:c9:0b:34:1e:77:7e:cb:4c:44:41:ea:4a:b0:b4:1e"
-      - run: npm run tagging
+      - run: git tag -a '1.0.0.45' -m 'my version 1.0.0.45 && git push origin --tags
 workflows:
   version: 2
   build_test_and_tagging:
