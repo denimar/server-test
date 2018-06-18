@@ -18,10 +18,10 @@ jobs:
   tagging:
     docker:
       - image: circleci/node:8.11.3     
-    working_directory: ~/repo
-    steps:
       environment:
         - GH_TOKEN: 0b920b8b68def28018b8e9cad728d60f197b35e6      
+    working_directory: ~/repo
+    steps:
       - checkout
       - run: npm run tagging
 workflows:
