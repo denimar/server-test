@@ -7,8 +7,8 @@
     "start": "node index.js",
     "deploy": "gcloud app deploy --project projectdenimar01",
 
-    "git:push": "git add . && git commit -am 'implemented version 1.0.0.26' && git push",
-    "git:tagging": "git tag -a v1.0.0.26 -m 'my version 1.0.0.26' && git push origin --tags",
+    "git:push": "git add . && git commit -am 'implemented version 1.0.0.27' && git push",
+    "git:tagging": "git tag -a v1.0.0.27 -m 'my version 1.0.0.27' && git push origin --tags",
     "git": "npm run git:push && npm run git:tagging"
   },
   "comment": {
