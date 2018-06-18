@@ -23,7 +23,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "56:a9:7f:5a:8e:99:38:4c:52:42:df:84:e8:4d:fe:16"
+            - "25:c9:0b:34:1e:77:7e:cb:4c:44:41:ea:4a:b0:b4:1e"
       - run: npm run tagging
 workflows:
   version: 2
