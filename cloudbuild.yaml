@@ -9,7 +9,8 @@ steps:
   args:
   - 'set'
   - 'image'
-  - 'deployment/microservice01'
+  - 'deployment'
+  - 'microservice01'
   - 'microservice01=gcr.io/projectdenimar01/github-denimar-server-test:$REVISION_ID'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
