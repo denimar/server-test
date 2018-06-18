@@ -33,6 +33,10 @@ workflows:
       - test:
           requires:
             - build
+      - request-tagging:
+          type: approval
+          requires:
+            - test
       - tagging:
           requires:
-            - test            
+            - request-tagging            
