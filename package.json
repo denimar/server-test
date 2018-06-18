@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "coverage": "nyc mocha --timeout=3000",
+    "test": "mocha",
     "deploy": "gcloud app deploy --project projectdenimar01",
-
-    "git:push": "git add . && git commit -am 'implemented version 1.0.0.29' && git push",
-    "git:tagging": "git tag -a v1.0.0.29 -m 'my version 1.0.0.29' && git push origin --tags",
+    "git:push": "git add . && git commit -am 'implemented version 1.0.0.30' && git push",
+    "git:tagging": "git tag -a v1.0.0.30 -m 'my version 1.0.0.30' && git push origin --tags",
     "git": "npm run git:push && npm run git:tagging"
   },
   "comment": {
@@ -16,11 +17,16 @@
       "--no-promote": "evoid to publish https://server01-dot-projectdenimar01.appspot.com",
       "externalIP": "130.211.234.187",
       "#1": "após run deploy, eu tenho que entrar via ssh rodar 'kubectl get pods' pegar o pod e rodar 'kubectl delete pod <pod name>'. Será que não tem uma forma de fazer isso automaticamente???"
-    }  
+    }
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
   }
 }
