@@ -21,6 +21,9 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "73cafcf7d0773ab4dcb02f445d734c2159e35cb1"      
       - run: npm run tagging
 workflows:
   version: 2
