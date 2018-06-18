@@ -1,7 +1,3 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
 version: 2
 jobs:
   build:
@@ -19,11 +15,19 @@ jobs:
       - checkout
       - run: npm install      
       - run: npm test
+  tagging:
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: npm run tagging
 workflows:
   version: 2
-  build_and_test:
+  build_test_and_tagging:
     jobs:
       - build
       - test:
           requires:
             - build
+      - tagging:
+          requires:
+            - test            
