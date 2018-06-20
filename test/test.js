@@ -17,3 +17,7 @@ describe('addTwoNumbers()', function () {
 
   });
 });
+
+function teste() {
+  console.log('building')
+}
